@@ -1,4 +1,3 @@
-![Screenshot (14)](https://github.com/faizp10/PR18/assets/141897827/bd940754-3503-4646-b6b6-04fee06c4cee)langkah membuat kerangka kerja otomatisasi API:
 1. Buat proyek Java dan tambahkan dependensi JUnit dan Apache HTTP Client.
 2. menyusun struktur proyek
 3. membuat test class
