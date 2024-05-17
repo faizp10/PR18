@@ -1,14 +1,16 @@
-1. Buat proyek Java dan tambahkan dependensi JUnit dan Apache HTTP Client.
+1. Buat proyek Java dan tambahkan dependensi JUnit dan RestAssured.
 2. menyusun struktur proyek
-3. membuat test class
-   a. Implementasikan kelas utilitas APIHelper.java untuk membuat permintaan HTTP:
-   ![Screenshot (14)](https://github.com/faizp10/PR18/assets/141897827/d1b2f20d-791a-4b20-a991-003b57ccb7bb)
-   b. Tulis test cases dalam kelas APITest.java untuk menguji titik akhir API
-   ![Screenshot (15)](https://github.com/faizp10/PR18/assets/141897827/de44992c-feeb-4982-90a1-1427413aeef5)
-   c. Buat kelas test runner untuk menjalankan semua kasus uji:
-   ![Screenshot (16)](https://github.com/faizp10/PR18/assets/141897827/167de271-d3f4-4f9d-a31e-4d5b7aa03004)
-4. Jalankan test runner untuk menjalankan semua kasus uji dan memeriksa hasilnya.
-   ![Screenshot (13)](https://github.com/faizp10/PR18/assets/141897827/2b4b00ad-a5cb-40f0-93da-5a7e354304ac)
+   ![Screenshot (20)](https://github.com/faizp10/PR18/assets/141897827/13b15575-2166-446b-b658-dfefe55b1ee6)
+   ![Screenshot (21)](https://github.com/faizp10/PR18/assets/141897827/6054f514-75fb-4950-9102-0382b2a5fec4)
+   ![Screenshot (22)](https://github.com/faizp10/PR18/assets/141897827/091ea837-f8ae-423b-96fb-7a19700430ac)
+4. membuat test class dan menambahkan file testng.xml
+   ![Screenshot (28)](https://github.com/faizp10/PR18/assets/141897827/d4217158-957b-4d01-a490-11052a48b4af)
+5. Jalankan test runner dengan klik kanan tesng.xml, klik run, untuk menjalankan semua kasus uji dan memeriksa hasilnya.
+   ![Screenshot (23)](https://github.com/faizp10/PR18/assets/141897827/bf7108cd-bb2a-4962-8f1a-8a623fdec665)
+   ![Screenshot (24)](https://github.com/faizp10/PR18/assets/141897827/bf56346f-bc33-4cec-8d70-82cf581423a6)
+   ![Screenshot (25)](https://github.com/faizp10/PR18/assets/141897827/b01c9d01-e173-43ee-881c-7071ac5d1239)
+   ![Screenshot (26)](https://github.com/faizp10/PR18/assets/141897827/c71cb152-0852-438c-9ce4-89afa6fd6b22)
+   ![Screenshot (27)](https://github.com/faizp10/PR18/assets/141897827/556a1d2f-856b-4832-a9f3-8552aa30bc9a)
 
 Notes: Pastikan telah menambahkan dependensi yang diperlukan ke dalam proyek Anda dan mengganti URL dengan titik akhir API yang sesuai. Selain itu, pastikan bahwa API dapat diakses saat menjalankan tes.
 
