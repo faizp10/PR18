@@ -1,22 +1,22 @@
 plugins {
-    id 'java-library'
+    id 'java'
 }
 
-group = 'org.example'
-version = '1.0-SNAPSHOT'
+group  'org.example'
+version  '1.0-SNAPSHOT'
 
 repositories {
-    jcenter()
+    mavenCentral()
 }
 
 dependencies {
-    testImplementation 'junit:junit:4.13'
-    implementation 'org.apache.httpcomponents:httpclient:4.5.13'
+    testImplementation group: 'org.testng', name: 'testng', version: '7.5'
+    testImplementation group: 'io.rest-assured', name: 'rest-assured', version: '4.5.1'
+    testImplementation group: 'org.json', name: 'json', version: '20220924'
 }
 
 test {
-    useJUnitPlatform()
-    useTestNG {
+        useTestNG {
         suites 'src/test/resources/testng.xml'
     }
 }
